@@ -11,23 +11,24 @@ type Presentation = {
 };
 
 const presentation: Presentation = {
-  mail: "maxencewolff.pro@gmail.com",
-  title: "Hi, I’m Maxence 👋",
-  description:
-    "Bonjour, i'm a *french frontend developer* with over *3 years* of web experience. I am currently working with *NextJS and Typescript*. Outside of work I complete my pokemon card collection and learning TypeScript.",
+  mail: "",
+  title: "Crymore Studio",
+  // description:
+  //   "British indie studio, making games for the fun of it.\n**NO CRYING ALLOWED** ",
+  description: "We're a British indie studio, making games for the fun of it. <br> There's only one thing we hold dearly to our hearts: **NO CRYING!** ",
   socials: [
-    {
-      label: "Twiiter",
-      link: "https://twitter.com/itsstormzz_",
-    },
-    {
-      label: "Bento",
-      link: "https://bento.me/m-wolff",
-    },
-    {
-      label: "Github",
-      link: "https://github.com/MaeWolff",
-    },
+    // {
+    //   label: "Twiiter",
+    //   link: "https://twitter.com/itsstormzz_",
+    // },
+    // {
+    //   label: "Bento",
+    //   link: "https://bento.me/m-wolff",
+    // },
+    // {
+    //   label: "Github",
+    //   link: "https://github.com/MaeWolff",
+    // },
   ],
 };
 
