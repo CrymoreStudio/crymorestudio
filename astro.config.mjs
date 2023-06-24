@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import basicSsl from "@vitejs/plugin-basic-ssl";
 
 // import { SITE_URL } from "./src/data/config";
 
@@ -27,10 +26,4 @@ export default defineConfig({
   //   mode: "standalone"
   // })
   output: "static",
-  vite: {
-    plugins: [basicSsl()],
-    server: {
-      https: true
-    }
-  }
 });
