@@ -22,6 +22,12 @@ const projects: Project[] = [
     link: "/",
     isComingSoon: true,
   },
+  {
+    title: "Morsfero",
+    techs: ["UE5"],
+    link: "/",
+    isComingsoon: true
+  },
 ];
 
 export default projects;
