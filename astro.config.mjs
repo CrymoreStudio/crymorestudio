@@ -9,6 +9,9 @@ import node from "@astrojs/node";
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
   site: "http://crymore.studio",
+  server: {
+    port: process.env.PORT || 3000
+  },
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {
