@@ -10,7 +10,8 @@ export default defineConfig({
   integrations: [tailwind(), sitemap()],
   site: "http://crymore.studio",
   server: {
-    port: parseInt(process.env.PORT) || 3000
+    port: parseInt(process.env.PORT) || 3000,
+    host: true
   },
   markdown: {
     syntaxHighlight: "shiki",
