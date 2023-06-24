@@ -8,7 +8,7 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
-  site: SITE_URL,
+  // site: SITE_URL,
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {
@@ -18,6 +18,6 @@ export default defineConfig({
   },
   output: "server",
   adapter: node({
-    mode: "standalone"
+    mode: "middleware"
   })
 });
