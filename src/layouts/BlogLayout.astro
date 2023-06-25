@@ -1,0 +1,22 @@
+---
+import formatDate from "@/utils/formatDate";
+
+const { frontmatter } = Astro.props;
+---
+
+<html>
+  <!-- ... -->
+  <h2 class="font-bold">{frontmatter.title}</h2>
+
+  <div class="border-t border-neutral-700 py-4">
+    <p class="prose-sm">
+      {formatDate(frontmatter.publishedAt)}
+    </p>
+  </div>
+
+  <slot />
+  <!-- Markdown content is injected here -->
+  <!-- ... -->
+
+
+</html>
