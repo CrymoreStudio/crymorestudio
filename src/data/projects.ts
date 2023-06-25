@@ -17,16 +17,16 @@ const projects: Project[] = [
   //   link: "https://www.linablidi.fr/",
   // },
   {
-    title: "Trip Shift",
+    title: "💊 Trip Shift",
     techs: ["UE5"],
     link: "/",
     isComingSoon: true,
   },
   {
-    title: "Morsfero",
+    title: "🗡️ Morsfero",
     techs: ["UE5"],
     link: "/",
-    isComingsoon: true
+    isComingsoon: true,
   },
 ];
 

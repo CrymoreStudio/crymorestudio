@@ -1,12 +1,11 @@
 ---
 title: "Trip Shift: Introduction"
+layout: "../../layouts/BlogLayout.astro"
 publishedAt: 2023-06-23
 description: "Welcome to Trip Shift."
 slug: "trip-shift"
 isPublish: true
 ---
-
-## Trip Shift: Introduction
 
 Welcome to Trip Shift, the industrial horror game that takes you on a mind-bending journey through an otherworldly clothes factory.
 
