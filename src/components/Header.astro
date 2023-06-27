@@ -1,7 +1,7 @@
 ---
 import removeTrailingSlash from "@/utils/removeTrailingSlash";
 import presentation from "@/data/presentation";
-
+import ThemeToggle from "./ThemeToggle";
 const pathname = removeTrailingSlash(Astro.url.pathname);
 ---
 
@@ -10,7 +10,9 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
     >{presentation.mail}</a
   >
   <h1 class="text-3xl text-neutral-100 mr-auto">
-    {Astro.url.pathname != "/" && presentation.title}
+    <a href="/" class="hover:text-neutral-100">
+      {Astro.url.pathname != "/" && presentation.title}
+    </a>
   </h1>
   <nav role="navigation">
     <ul role="list" class="flex flex-row gap-2">
